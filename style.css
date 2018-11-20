@@ -2435,6 +2435,79 @@ body:not(.twentyseventeen-front-page) .entry-header {
 	content: '\002f';
 }
 
+
+/*--------------------------------------------------------------
+13.7 Other
+--------------------------------------------------------------*/
+
+.about-column-left {
+
+	width: 35%;
+
+	vertical-align: top;
+}
+
+.about-column-right {
+	width: 60%;
+	
+	vertical-align: top;
+	margin-left: 25px;
+}
+
+#about-photo-text {
+	font-family: Chivo;
+	font-size: 13px;
+	color: rgb(135,135,135);
+}
+
+#about-list {
+	margin-left: 5px;
+	
+}
+
+#about-list li {
+	font-size: 18pt;
+}
+
+#flex-container {
+	display: flex;
+	flex-direction: row;
+
+}
+
+/*----------- Sign Up Page ---------------- */
+.sub-label {
+	font-family: Chivo;
+	font-size: 12px;
+	position: relative;
+	top: -5px;
+}
+
+input[type="tel"].sign-up-phone  {
+	width: 200px;
+}
+
+input[type="text"].sign-up-city {
+	width: 400px;
+	margin-right: 10px;
+}
+
+input[type="text"].sign-up-state {
+	width: 100px;
+	margin-right: 10px;	
+}
+
+input[type="text"].sign-up-zip {
+	width: 200px;
+}
+
+input[type="text"].sign-up-country {
+	width: 100%;
+}
+
+input[type="text"].sign-up-rate {
+	width: 300px;
+}
 /*--------------------------------------------------------------
 14.0 Comments
 --------------------------------------------------------------*/
