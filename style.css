@@ -2508,6 +2508,34 @@ input[type="text"].sign-up-country {
 input[type="text"].sign-up-rate {
 	width: 300px;
 }
+
+input[type="textarea"].references {
+	
+}
+
+/*------------- start new project page -----------------------------*/
+
+#sub-project-type {
+	padding-left: 32px;
+	display: none;
+}
+
+#sub-project-type > div {
+	margin-bottom: 5px;
+}
+
+#sub-strategy {
+	display: none;
+	padding-left: 37px;
+}
+
+#sub-project-management {
+	padding-left: 40px;
+	display: none;
+}
+
+
+
 /*--------------------------------------------------------------
 14.0 Comments
 --------------------------------------------------------------*/
