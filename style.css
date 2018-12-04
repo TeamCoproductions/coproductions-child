@@ -2529,10 +2529,104 @@ input[type="textarea"].references {
 	padding-left: 37px;
 }
 
+#sub-website {
+	display: none;
+	padding-left: 37px;
+}
+
+/* ----- Strategy and Project Management ---*/
+
 #sub-project-management {
 	padding-left: 40px;
 	display: none;
+	margin-top: 10px;
 }
+
+#sub-research {
+	padding-left: 40px;
+	display: none;
+	margin-top: 10px;
+}
+
+#sub-prototype {
+	padding-left: 40px;
+	display: none;
+	margin-top: 10px;
+}
+
+#sub-pr {
+	padding-left: 40px;
+	display: none;
+	margin-top: 10px;
+}
+
+#sub-content {
+	padding-left: 40px;
+	display: none;
+	margin-top: 10px;
+}
+
+#sub-social {
+	padding-left: 40px;
+	display: none;
+	margin-top: 10px;
+}
+
+#sub-email-campaign {
+	padding-left: 40px;
+	display: none;
+	margin-top: 10px;
+}
+
+#sub-advertising {
+	padding-left: 40px;
+	display: none;
+	margin-top: 10px;
+}
+
+#sub-sales {
+	padding-left: 40px;
+	display: none;
+	margin-top: 10px;
+}
+
+.question {
+	margin-bottom: 15px;
+}
+
+.option {
+	margin-bottom: 10px;
+	padding-left: 10px;
+}
+
+/*-------------- Website ---------------------- */
+
+#sub-new-website {
+	padding-left: 37px;
+	display: none;
+	margin-top: 10px;	
+}
+
+#sub-existing-site {
+	padding-left: 37px;
+	display: none;
+	margin-top: 10px;		
+}
+
+#sub-brand-new {
+	padding-left: 40px;
+	display: none;
+	margin-top: 10px;	
+}
+
+#num-pages {
+	width: 75px;
+}
+
+#platform-choice-text {
+	width: 500px;
+}
+
 
 
 
