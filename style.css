@@ -2627,8 +2627,42 @@ input[type="textarea"].references {
 	width: 500px;
 }
 
+/* ------------ Budget --------------------- */
+#sub-budget-yes {
+	padding-left: 37px;
+	display: none;
+	margin-top: 10px;		
 
+}
 
+#min-budget {
+	width: 150px;
+}
+
+#max-budget {
+	width: 150px;
+}
+
+#sub-proj-budget {
+	display: none;
+	margin-left: 15px;
+}
+
+#sub-hourly-budget {
+	display: none;
+	margin-left: 15px;
+}
+
+#sub-constraint-yes {
+	display: none;
+	margin-left: 15px;
+}
+
+#sub-constraint-no {
+	display: none;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
 
 /*--------------------------------------------------------------
 14.0 Comments
