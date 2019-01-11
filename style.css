@@ -2483,12 +2483,12 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 
 /*--------------------------------------------------------------
-13.7 Other
+13.7 Other BW 
 --------------------------------------------------------------*/
 
 
 #about-photo-text {
-	font-family: Chivo;
+	/* font-family: Chivo; */
 	font-size: 13px;
 	color: rgb(135,135,135);
 	margin-bottom:20px
@@ -2512,7 +2512,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 /*----------- Sign Up Page ---------------- */
 .sub-label {
-	font-family: Chivo;
+	/* font-family: Chivo; */
 	font-size: 12px;
 	position: relative;
 	top: -5px;

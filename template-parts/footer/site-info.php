@@ -16,4 +16,5 @@
 	}
 	?>
 
+COPYRIGHT © 2018 RED BIRD MARKETING. ALL RIGHTS RESERVED
 </div><!-- .site-info -->
