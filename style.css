@@ -1326,9 +1326,8 @@ a:hover .nav-title,
 
 .navigation-top {
 	background: #fff;
-	border-bottom: 1px solid #eee;
-	border-top: 1px solid #eee;
 	/* font-size: 16px; BW 10-29-18 */
+	border: none;
 	font-size: 14px;
 	font-family: Work Sans;/* added BW */
 	font-size: 1rem;
@@ -2131,7 +2130,8 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 }
 
 body:not(.twentyseventeen-front-page) .entry-header {
-	padding: 1em 0;
+	/* BW padding: 1em 0; */
+	padding: 0em 0; 	
 }
 
 body:not(.twentyseventeen-front-page) .entry-header,
@@ -2396,7 +2396,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 --------------------------------------------------------------*/
 
 .site-footer {
-	border-top: 1px solid #eee;
+	border-top: none;
 }
 
 .site-footer .wrap {
@@ -2509,6 +2509,12 @@ body:not(.twentyseventeen-front-page) .entry-header {
 	flex-direction: row;
 
 }
+
+.wpcf7-form {
+	margin-top: 0px;
+}
+
+
 
 /*----------- Sign Up Page ---------------- */
 .sub-label {
@@ -2735,6 +2741,36 @@ input[type="textarea"].references {
 
 #project-id { min-width: 300px;}
 
+/*   About Page */
+
+.about-button {
+	color: #45bfb4;
+	border-width: 2px;
+	border-style: solid;
+	background-color: transparent;
+	transition: 0.1s background-color linear, 0.1s color linear;
+	padding: 13px 26px;
+	font-family: Chivo;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	border-color: #45bfb4;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	outline: none;
+	-webkit-appearance: none;
+	line-height: normal;
+	background: transparent;
+	text-rendering: optimizeLegibility;
+	box-shadow: none !important;
+
+}
 
 /*--------------------------------------------------------------
 14.0 Comments
@@ -4100,8 +4136,11 @@ p > object:only-child {
 	}
 
 	.panel-content .wrap {
-		padding-bottom: 4.5em;
-		padding-top: 6em;
+		/* padding-bottom: 4.5em;
+		padding-top: 6em; BW */
+		padding-bottom: 1em;
+		padding-top: 2em;
+
 	}
 
 	.panel-image {
@@ -4156,7 +4195,8 @@ p > object:only-child {
 	/* Posts */
 
 	.site-content {
-		padding: 5.5em 0 0;
+		/* padding: 5.5em 0 0; */
+		padding: 2.5em 0 0;
 	}
 
 	.single-post .entry-title,
@@ -4315,7 +4355,7 @@ p > object:only-child {
 	.twentyseventeen-front-page.page-one-column .entry-header,
 	.archive.page-one-column:not(.has-sidebar) .page-header {
 		/* margin-bottom: 4em; */
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 	.page:not(.home) #content {

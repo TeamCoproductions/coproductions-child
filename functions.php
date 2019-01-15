@@ -1,7 +1,7 @@
 <?php
 function my_theme_enqueue_styles() {
 
-	remove_filter( 'the_content', 'wpautop' );// added by BW - remove <P> auto add
+	//remove_filter( 'the_content', 'wpautop' );// added by BW - remove <P> auto add
 	remove_filter( 'the_excerpt', 'wpautop' );
 
     $parent_style = 'twentyseventeen-style'; // This is 'twentyfifteen-style' for the Twenty Fifteen theme.
